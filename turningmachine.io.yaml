@@ -6,16 +6,20 @@ table:
   [a,b,c,d,e,f,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z] : {R: S0}
   g : {R: S1}
  S1:
-  [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,s,t,u,v,w,x,y,z] : {R: S0}
+  [a,b,c,d,e,f,h,i,j,k,l,m,n,o,p,q,s,t,u,v,w,x,y,z] : {R: S0}
   r : {R: S2}
+  g : {R: S1}
  S2:
-  [a,b,c,d,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z] : {R: S0}
+  [a,b,c,d,f,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z] : {R: S0}
   e : {R: S3}
+  g : {R: S1}
  S3:
-  [b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z] : {R: S0}
+  [b,c,d,e,f,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z] : {R: S0}
   a : {R: S4}
+  g : {R: S1}
  S4:
-  [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,u,v,w,x,y,z] : {R: S0}
+  [a,b,c,d,e,f,h,i,j,k,l,m,n,o,p,q,r,s,u,v,w,x,y,z] : {R: S0}
   t : {R: Done}
+  g : {R: S1}
  Done:
   [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z] : R
