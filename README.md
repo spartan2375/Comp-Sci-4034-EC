@@ -2,7 +2,7 @@
 
 # Usage
 
-python main.py
+python fsa_generator.py
 
 # Output
 The output will be written to a .yaml file in the same directory as the program.  
